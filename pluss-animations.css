@@ -1,0 +1,46 @@
+# محتوى ملف CSS (pluss-animations.css)
+pluss_animations_css = """
+/* Pluss Animation Library - CSS */
+/* Version: 1.0.0 */
+/* Author: Pluss Agency */
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+}
+.fade-in-up.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in-down {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.6s ease-out;
+}
+.fade-in-down.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.zoom-in {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.6s ease-out;
+}
+.zoom-in.animate {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+}
+.scroll-reveal.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
