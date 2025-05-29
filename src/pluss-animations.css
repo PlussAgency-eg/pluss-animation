@@ -1,0 +1,8 @@
+.scroll-reveal {
+    opacity: 0;
+    will-change: transform, opacity, filter;
+  }
+  
+  /* Optional: you can add some basic transition if needed, 
+     but main animations are handled by Web Animations API */
+  
